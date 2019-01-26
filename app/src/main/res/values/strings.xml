@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Intr-a-Pump</string>
+    <string name="error_message">Invalid ID or Password, Please Try Again.</string>
 </resources>
