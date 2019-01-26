@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".home"></activity>
+        <activity android:name=".home" />
+        <activity android:name=".PatientView" />
+        <activity android:name=".AlertView" />
+        <activity android:name=".ScheduleView" />
+        <activity android:name=".StatsView"></activity>
     </application>
 
 </manifest>

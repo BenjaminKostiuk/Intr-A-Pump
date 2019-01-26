@@ -16,6 +16,7 @@
         android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="10dp"
         android:background="@color/colorPrimary"
+        android:onClick="onPatientClick"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:text="Patient Profiles" />
@@ -24,6 +25,7 @@
         android:id="@+id/alerts"
         android:layout_width="match_parent"
         android:layout_marginHorizontal="10dp"
+        android:onClick="onAlertClick"
         android:background="@color/colorPrimary"
         android:layout_marginVertical="10dp"
         android:layout_height="wrap_content"
@@ -36,6 +38,7 @@
         android:layout_marginHorizontal="10dp"
         android:background="@color/colorPrimary"
         android:layout_marginVertical="10dp"
+        android:onClick="onScheduleClick"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Schedule" />
@@ -45,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_marginHorizontal="10dp"
         android:background="@color/colorPrimary"
+        android:onClick="onStatClick"
         android:layout_marginVertical="10dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
