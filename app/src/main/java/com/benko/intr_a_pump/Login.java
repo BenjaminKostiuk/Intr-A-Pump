@@ -23,7 +23,7 @@ public class Login extends AppCompatActivity {
     public void onLoginClick(View view) {
         String physicianId = physician_id_field.getText().toString();
         String password = password_field.getText().toString();
-        if(physicianId.equals("001425") && password.equals("test")) {
+        if(physicianId.equals("0000") && password.equals("test")) {
             Physician physician = new Physician(physicianId, password);
             Intent intent = new Intent(this, home.class);
             startActivity(intent);
